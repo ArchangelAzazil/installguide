@@ -2,26 +2,34 @@
 <html>
 <head>
   <title>How to Install Hotspot Shield VPN on Different Linux Distros</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <a href="https://www.hotspotshield.com/">
-        <img src="https://theme.zdassets.com/theme_assets/109411/96701fa091a3f89ed1c3b8f232d25ea752937f02.svg" alt="Hotspot Shield Logo"/>
+      <img src="https://theme.zdassets.com/theme_assets/109411/96701fa091a3f89ed1c3b8f232d25ea752937f02.svg" alt="Hotspot Shield Logo">
     </a>
     <a href="https://support.hotspotshield.com/hc/en-us" class="back-link">← Back to help home</a>
   </header>
-  <div class="container">
-    <h1>How to Install Hotspot Shield VPN on Different Linux Distros</h1>
 
+  <div class="container">
+    <h1 class="header">How to Install Hotspot Shield VPN on Different Linux Distros</h1>
+    <br>
     <h2>Debian-Based Distros</h2>
+    <br>
     <ul>
       <li>Debian</li>
-      <li>Linux Mint</li>
       <li>Ubuntu</li>
+      <li>Linux Mint</li>
+      <li>Elementary OS</li>
+      <li>Pop!_OS</li>
+      <li>Zorin OS</li>
     </ul>
-
+    <br>
     <h3>Installation Instructions</h3>
+    <br>
     <ol>
       <li>Download the .deb package from the <a href="https://www.hotspotshield.com/download/linux/">Hotspot Shield website</a>.</li>
       <li>Open a terminal window and navigate to the Downloads folder.</li>
@@ -30,15 +38,19 @@
       <li>Install the package by running the following command:</li>
       <pre class="commands">sudo dpkg -i (filename.deb)</pre>
     </ol>
-
+    <br>
+    <hr>
+    <br>
     <h2>RedHat-Based Distros</h2>
+    <br>
     <ul>
       <li>Nobara</li>
       <li>Fedora</li>
       <li>CentOS</li>
     </ul>
-
+    <br>
     <h3>Installation Instructions</h3>
+    <br>
     <ol>
       <li>Download the .rpm package from the <a href="https://www.hotspotshield.com/download/linux/">Hotspot Shield website</a>.</li>
       <li>There are two ways to install the package. Open a terminal window and install the package using one of the following commands:</li>
@@ -47,17 +59,21 @@
       <li>Using the rpm package manager:</li>
       <pre class="commands">sudo rpm -i (filename.rpm)</pre>
     </ol>
-
+    <br>
+    <hr>
+    <br>
     <h2>Arch-Based Distros</h2>
+    <br>
     <ul>
       <li>Manjaro</li>
       <li>ArcoLinux</li>
     </ul>
-
+    <br>
     <h3>Installation Instructions</h3>
+    <br>
     <ol>
       <li>Download the .deb package from the <a href="https://www.hotspotshield.com/download/linux/">Hotspot Shield website</a>.</li>
-      <li>Update your Manjaro system:</li>
+      <li>Update your Arch-Based system:</li>
       <pre class="commands">pacman -Syyu</pre>
       <li>Install the debtap package manager:</li>
       <pre class="commands">yay -S debtap</pre>
@@ -73,11 +89,12 @@
       <pre class="commands">hotspotshield connect US</pre>
       <li>Test your connection.</li>
     </ol>
-
+    <br>
     <h3>Why the Extra Steps for Arch-Based Distros?</h3>
     <br>
 
     Hotspot Shield does not provide a native Arch Linux package, so it is necessary to use the debtap package manager to convert the Debian package to an Arch package. Debtap is a third-party package manager that is not officially supported by Arch Linux. However, it is a popular and well-maintained package manager that is used by many Arch Linux users to install Debian packages.
+  
   </div>
   <br>
   <a href="https://support.hotspotshield.com/hc/en-us" class="back-link">← Back to help home</a>
@@ -91,3 +108,4 @@
 
 
 </html>
+
