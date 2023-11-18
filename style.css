@@ -9,11 +9,12 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  background-color: #80baf0;
 }
 
 /* Set the background color of the header */
 header {
-  background-color: #fff;
+  background-color: #a4cef6;
   padding: 20px;
   border-bottom: 1px solid #ccc;
   display: flex;
@@ -44,7 +45,7 @@ header {
 
 /* need a line for clarity */
 hr {
-  height: 5px;
+  height: 2px;
   border: #0067c8 solid;
 }
 
@@ -82,14 +83,14 @@ a {
 pre.commands {
   width: 100%;
   font-family: monospace;
-  background-color: #ffffff;
+  background-color: #e8dbdb;
   padding: 5px;
   border: 1px solid #cccccc;
 }
 
 /* Set the padding and margin of the footer */
 footer {
-  background-color: #fff;
+  background-color: #a4cef6;
   padding: 20px;
   border-top: 1px solid #ccc;
   text-align: center;
@@ -100,6 +101,9 @@ footer p {
   font-size: 11px;
   margin: 0;
 }
+
+
+  
 
 
   
