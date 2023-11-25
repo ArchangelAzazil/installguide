@@ -9,7 +9,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  background-color: #80baf0;
+  background-color: aquamarine;
+  background-image: url(https://www.hotspotshield.com/imgs/vpn-offer/compared-bg.jpg);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* Set the background color of the header */
